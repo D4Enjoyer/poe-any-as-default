@@ -1,19 +1,21 @@
 // ==UserScript==
 // @name         PoE-Any-Default
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/D4Enjoyer/PoE-Any-Default/blob/main/PoE-Any-Default.js
+// @version      0.2
 // @description  Sets the default Sale Type to "Any" on Path of Exile Trade
 // @author       A God Gamer with his dear friends Google-search and ChatGPT
-// @match        https://www.pathofexile.com/trade/*
+// @match        https://www.pathofexile.com/*
 // @grant        none
+// @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
-// Function to activate multiselect and select "Any"
-function activateAndSelectAny() {
-    const saleTypeTitles = document.querySelectorAll('.filter-title');
+(function() {
+    'use strict';
 
-    // Loop through all filter titles
-    saleTypeTitles.forEach((title) => {
+    // Function to select "Any" option under "Sale Type" filter
+    function selectAnyOption(jNode) {
+        const title = jNode[0];
+
         if (title.textContent.trim() === 'Sale Type') {
             const multiselectWrapper = title.parentElement.querySelector('.multiselect__content-wrapper');
 
@@ -21,21 +23,18 @@ function activateAndSelectAny() {
             if (multiselectWrapper && !multiselectWrapper.parentElement.classList.contains('multiselect--above')) {
                 // Simulate click to activate the multiselect
                 title.click();
-                console.log('Clicked on multiselect');
+                console.log('Clicked on multiselect to activate it');
 
-                // Timeout to wait for the multiselect to appear after click
-                setTimeout(() => {
-                    // Select "Any" option by finding and clicking on the respective element
-                    const anyOption = multiselectWrapper.querySelector('.multiselect__element [data-select=""]');
-                    if (anyOption) {
-                        anyOption.click();
-                        console.log('Clicked on "Any" option');
-                    }
-                }, 500); // Adjust timeout duration as needed
+                // Find and click the "Any" option under "Sale Type" filter
+                const anyOption = multiselectWrapper.querySelector('.multiselect__element span[data-select=""] span');
+                if (anyOption && anyOption.textContent.trim() === 'Any') {
+                    anyOption.click();
+                    console.log('Clicked on "Any" option under "Sale Type"');
+                }
             }
         }
-    });
-}
+    }
 
-// Wait for one second after page load
-setTimeout(activateAndSelectAny, 1000);
+    // Wait for "Sale Type" element to appear and select the "Any" option
+    waitForKeyElements('.filter-title', selectAnyOption);
+})();
