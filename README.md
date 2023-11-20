@@ -10,8 +10,9 @@ This userscript automates the selection of the "Any" option under the "Sale Type
 <img src="https://i.imgur.com/CBS0BTK.gif" alt="Script Demo">
 
 ## Installation
-1. **Install a Userscript Manager**: Use a browser extension like Tampermonkey or Greasemonkey.
-2. **Install the Script**: Add the `poe-any-as-default.js` file to your userscript manager.
+1. **Install a Userscript Manager**: Use a browser extension like Tampermonkey.
+2. **Install the Script**: Add the script to your userscript manager, e.g. by clicking on `poe-any-as-default.user.js` and then selecting "Raw" to automatically install it.
+<img src="https://i.imgur.com/xiof9A3.png" alt="Install">
 
 ## Usage
 Once the userscript is installed, visit the Path of Exile Trade website. The script will automatically set the default "Sale Type" to "Any" in the filtering options.
