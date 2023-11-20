@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         poe-any-as-default
-// @namespace    https://github.com/D4Enjoyer/poe-any-as-default/blob/main/poe-any-as-default.js
+// @namespace    https://github.com/D4Enjoyer/poe-any-as-default
 // @version      1.0
 // @description  Sets the default Sale Type to "Any" on Path of Exile Trade
 // @author       A God Gamer with his dear friends Google-search and ChatGPT
