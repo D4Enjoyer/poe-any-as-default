@@ -10,10 +10,9 @@
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
-// Your script logic using jQuery
 (function($) {
     'use strict';
-
+    
     // Function to select "Any" option under "Sale Type" filter
     function selectAnyOption(jNode) {
         const title = jNode[0];
