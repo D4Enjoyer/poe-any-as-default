@@ -3,7 +3,7 @@
 // @namespace    https://github.com/D4Enjoyer/poe-any-as-default
 // @version      1.0
 // @description  Sets the default Sale Type to "Any" on Path of Exile Trade
-// @author       A God Gamer with his dear friends Google-search and ChatGPT
+// @author       A God Gamer with his dear friend ChatGPT
 // @match        https://www.pathofexile.com/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
