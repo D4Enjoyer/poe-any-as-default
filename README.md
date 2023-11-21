@@ -18,4 +18,4 @@ This userscript automates the selection of the "Any" option under the "Sale Type
 Once the userscript is installed, visit the Path of Exile Trade website. The script will automatically set the default "Sale Type" to "Any" in the filtering options.
 
 ## Author
-A God Gamer with support from Google-search and ChatGPT
+A God Gamer with support from his dear friend ChatGPT
