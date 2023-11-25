@@ -8,7 +8,7 @@
 // @match        https://www.pathofexile.com/trade*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
-// @require      https://cdn.jsdelivr.net/gh/CoeJoder/waitForKeyElements.js@v1.2/waitForKeyElements.js
+// @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
 // Function to select "Any" option under "Sale Type" filter
