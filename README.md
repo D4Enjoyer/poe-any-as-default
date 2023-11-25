@@ -7,7 +7,7 @@ This userscript streamlines the process of setting the default "Sale Type" filte
 <img src="https://i.imgur.com/CBS0BTK.gif" alt="Script Demo">
 
 ## How it Works
-Operating through JavaScript, the script identifies the relevant filter elements and triggers simulated clicks to activate the "Any" option under "Sale Type".
+Operating through JavaScript and jQuery, the script identifies the relevant filter elements and triggers simulated clicks to activate the "Any" option under "Sale Type".
 
 #### Key Steps:
 
