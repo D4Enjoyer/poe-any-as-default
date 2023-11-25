@@ -7,7 +7,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
 // @match        https://www.pathofexile.com/trade*
 // @grant        none
-// @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @require      https://code.jquery.com/jquery-latest.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
 
