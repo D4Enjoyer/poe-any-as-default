@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         poe-any-as-default
 // @namespace    https://github.com/D4Enjoyer/poe-any-as-default
-// @version      1.2
+// @version      1.3
 // @description  Sets the default Sale Type to "Any" on Path of Exile Trade
 // @author       A God Gamer with his dear friend ChatGPT
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
 // @match        https://www.pathofexile.com/trade*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
-// @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @require      https://cdn.jsdelivr.net/gh/CoeJoder/waitForKeyElements.js@v1.2/waitForKeyElements.js
 // ==/UserScript==
 
 // Function to select "Any" option under "Sale Type" filter
