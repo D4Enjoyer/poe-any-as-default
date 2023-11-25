@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Sets the default Sale Type to "Any" on Path of Exile Trade
 // @author       A God Gamer with his dear friend ChatGPT
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
 // @match        https://www.pathofexile.com/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
