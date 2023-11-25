@@ -15,9 +15,9 @@ Operating through JavaScript and jQuery, the script identifies the relevant filt
 
 2. **Selection:** Then it automatically selects the "Any" option within the "Sale Type" dropdown.
 
-#### Reset Button Functionality
+#### Clear Button Functionality
 
-Additionally, the script is designed to respond to the Reset button. Clicking on it triggers the automatic selection of the "Any" option. This ensures that whenever the user resets search filters, the "Sale Type" filter defaults back to the desired "Any" setting.
+Additionally, the script is designed to respond to the Clear button. Clicking on it triggers the automatic selection of the "Any" option. This ensures that whenever the user resets search filters, the "Sale Type" filter defaults back to the desired "Any" setting.
 
 This automation simplifies the process for users, ensuring that the default filter option is consistently set to "Any" without manual intervention.
 
